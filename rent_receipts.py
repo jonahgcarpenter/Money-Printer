@@ -115,7 +115,7 @@ def on_final_enter(event):
     generate_receipt()
 
 root = Tk()
-root.title("Monthly Expense Receipt Generator")
+root.title("Rent Receipt Generator")
 
 # Rent and Bills Inputs
 Label(root, text="Rent:").grid(row=0, column=0)
